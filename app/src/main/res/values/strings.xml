@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Safe Neighborhood®</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Mapa</string>
+    <string name="title_notifications">Lista</string>
+    <string name="Acessar">Acessar</string>
+    <string name="ForgetPassword">Esqueci meu código</string>
+    <string name="toast_msg">Para recuperar seu codigo de seguranca ligue para: (11) 5033-3100</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_quinta_boa_vista">QuintaBoaVista</string>
+    <string name="cam1">Visualização de 1 câmera</string>
+    <string name="cam2">Visualização de 2 câmeras</string>
+    <string name="cam3">Visualização de 3 câmeras</string>
+    <string name="cam4">Visualização de 4 câmeras</string>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context=".fragments.Home">
+
+    <ImageView
+        android:id="@+id/img_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_perfil"
+        app:srcCompat="@drawable/ic_perfil" />
+
+    <TextView
+        android:id="@+id/txtFotoPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alterar Foto de Perfil"
+        android:textColor="@android:color/holo_orange_dark"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editNome"
+        style="@style/Edit_Perfil"
+        android:layout_marginTop="295dp"
+        android:background="@color/light_silver"
+        android:hint="Nome"
+        android:enabled="false"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:text="Iago"/>
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="295dp"
+        android:text="Nome"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/editSobrenome"
+        style="@style/Edit_Perfil"
+        android:layout_marginTop="350dp"
+        android:background="@color/light_silver"
+        android:enabled="false"
+        android:hint="Sobrenome"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:text="Gomes Castro"/>
+
+    <TextView
+        android:id="@+id/txtSobrenome"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:text="Sobrenome"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/ediTelefone"
+        style="@style/Edit_Perfil"
+        android:background="@color/light_silver"
+        android:layout_marginTop="405dp"
+        android:enabled="false"
+        android:hint="Telefone"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:text="(11) 95449-9539"
+        />
+
+    <TextView
+        android:id="@+id/txtTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="407dp"
+        android:text="Telefone"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/editEmail"
+        style="@style/Edit_Perfil"
+        android:background="@color/light_silver"
+        android:layout_marginTop="460dp"
+        android:enabled="false"
+        android:hint="E-mail"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:text="i.goomees@hotmail.com  "
+        />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:text="E-mail"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_editperf"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp"
+        android:text="Editar Perfil"
+        android:backgroundTint="@color/black_silver"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_Panico"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="205dp"
+        android:text="Pânico"
+        android:backgroundTint="@color/black_silver"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_desconectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Desconectar"
+        android:backgroundTint="@color/black_silver"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        />
+    />
+
+</FrameLayout>

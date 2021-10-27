@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "20903674062",
+    "project_id": "realhood-35e39",
+    "storage_bucket": "realhood-35e39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20903674062:android:bb22f0186e10c671c2109f",
+        "android_client_info": {
+          "package_name": "com.igsolution.safeneighborhood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20903674062-ltm2ao2294u1m7jniob5peut0oosmtd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbU-KYeu8Rs2XC8m5IFlCEJzB934UHNAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20903674062-ltm2ao2294u1m7jniob5peut0oosmtd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
